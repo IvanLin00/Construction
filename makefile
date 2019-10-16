@@ -1,7 +1,7 @@
-all: Struct.o
-    gcc -o program Struct.o
-Struct.o: Struct.c
-    gcc -c Struct.c
+all: struct.o
+    gcc -o program struct.o
+struct.o: struct.c
+    gcc -c struct.c
 run:
     program
 clean:
