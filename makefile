@@ -1,9 +1,6 @@
-all: struct.o
-    gcc -o program struct.o
-struct.o: struct.c
-    gcc -c struct.c
 run:
-    program
+	gcc -c struct.c
+	
 clean:
     rm *.o
     rm *.~
